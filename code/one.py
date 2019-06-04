@@ -1,4 +1,4 @@
-v=input("Enter a value")
+v=3
 if(v>0):
   print("entered value is positive")
 elif(v<0):
