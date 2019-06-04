@@ -1,9 +1,7 @@
-v=3
+v=float(input())
 if(v>0):
-  print("entered value is positive")
-elif(v<0):
-  print("entered value is negative")
+  print("Positive")
 elif(v==0):
-  print("The value is zero")
+  print("Zero"
 else:
-  print("Enter a valid number")
+  print("Negative")
