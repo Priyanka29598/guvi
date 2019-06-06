@@ -1,3 +1,2 @@
-f=int(input())
-l=int(input())
+f,l=int(input()).split(" ")
 print(f**l)
