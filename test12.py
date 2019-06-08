@@ -6,6 +6,6 @@ while(l>0):
     rev=rev*10+dig
     l=l//10
 if(temp==rev):
-    print("Palindrome")
+    print("yes")
 else:
-    print("No")
+    print("no")
