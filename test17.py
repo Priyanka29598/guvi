@@ -1,0 +1,11 @@
+v=int(input())
+s=0
+num=v
+while(v>0):
+    r=v%10
+    s=s+(r**3)
+    v=v//10
+if(s==num):
+    print("yes")
+else:
+    print("no")
