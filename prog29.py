@@ -1,5 +1,5 @@
 xg=int(input())
-ye=int(x/60)
-z3=x%60
+ye=int(xg/60)
+z3=xg%60
 print(ye,end=' ')
 print(z3)
