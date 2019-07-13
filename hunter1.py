@@ -1,11 +1,12 @@
-Ip=int(input())
-Cp=list(map(int,input().split()))
-pa=0
-d=[]
-for i in range(0,Ip+1):
-    if(C.count(i)>1):
-      d.append(i)
-if(len(d)==0):
-    print("unique")
-Ip=sorted(d)
-print(' '.join(map(str,Ip)))
+np=int(input())
+mg=[]
+l = list(map(int,input().split()))
+c1=[]
+for i in l:
+    if(l.count(i)>1):
+        c1.append(i)
+if (len(c1)>=2):
+    d=set(c1)
+    print(*d)
+else:
+    print('unique')
