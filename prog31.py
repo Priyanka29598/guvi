@@ -1,6 +1,6 @@
 xp=input()
-yj=len(x)
+yl=len(xp)
 for i in range(len(xp)):
     if xp[i]==' ':
-      yj=yj-1
-print(yj)
+      yl=yl-1
+print(yl)
